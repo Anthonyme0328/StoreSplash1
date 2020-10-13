@@ -11,7 +11,19 @@ body
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: black;
+  background-image: url('https://1gew6o3qn6vx9kp3s42ge0y1-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/5/2019/10/Microsoft-EP_Graphic_10.16.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1
+{
+position: fixed;
+left: 10px;
+bottom: 700px;  
+font-weight: 500;
+background: rgba(24, 223, 73, 0.788);
+border-radius: 10px;
 }
 
 .card
@@ -25,6 +37,21 @@ body
   overflow: hidden;
 }
 
+.card1
+{
+  background:rgba(10, 236, 168, 0.596) ;
+}
+
+.card2
+{
+  background: rgb(236, 111, 8, 0.596)
+}
+
+.card3
+{
+  background:rgb(255, 174, 1, 0.596) ;
+}
+
 .card::before
 {
   content: '';
@@ -33,7 +60,7 @@ body
   height: 100%;
   background: rgba(63, 241, 40, 0.781);
   transform: skewY(345deg);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .card:hover::before
@@ -73,6 +100,7 @@ body
 .card:hover .imgContainer img
 {
   max-width: 50%;
+  opacity: 0.5;
 }
 
 .card .contentBox
@@ -85,6 +113,7 @@ body
   flex-direction: column;
   z-index: 1;
 }
+
 
 .card .contentBox h3
 {
