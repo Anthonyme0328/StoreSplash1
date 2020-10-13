@@ -1,5 +1,6 @@
 # StoreSplash1
-mock up of a ecommerce splash page 
+- https://anthonyme0328.github.io/StoreSplash1/
+- mock up of a ecommerce splash page 
 
 
 # Tech used
