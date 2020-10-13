@@ -9,3 +9,6 @@ mock up of a ecommerce splash page
 
 # overview
 organic ecommerce page with product card hover effects
+
+# starter code from
+- https://www.youtube.com/watch?v=yNBObeTWvio
